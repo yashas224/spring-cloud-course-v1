@@ -1,0 +1,8 @@
+package com.microservices.limitsservice.dto;
+
+
+public class LimitConfiguration {
+	private int maximum;
+	private int minimum;
+
+}
