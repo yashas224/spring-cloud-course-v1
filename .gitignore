@@ -1,1 +1,6 @@
 .metadata/**
+/.metadata/
+/.recommenders/
+*.xmi
+*.cfs
+*.gen

@@ -14,6 +14,11 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\spring-cloud-course-v1\netflix-zuul-api-gateway-server"/>
+			<item value="E:\spring-cloud-course-v1\netflix-eureka-naming-server"/>
+			<item value="E:\spring-cloud-course-v1\currency-conversion-service"/>
+			<item value="E:\spring-cloud-course-v1\currency-exchange-service"/>
+			<item value="E:\spring-cloud-course-v1\spring-cloud-config-server"/>
 			<item value="E:\spring-cloud-course-v1\limits-service"/>
 		</list>
 		<list key="projectNameTemplate">
