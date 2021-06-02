@@ -1,6 +1,5 @@
 
 .metadata/**
-/.metadata/
 /.recommenders/
 *.xmi
 *.cfs
