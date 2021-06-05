@@ -9,7 +9,7 @@ import com.microservices.currencyconversionservice.dto.CurrencyConversionBean;
 
 //@FeignClient(name = "currency-exchange-service", url = "http://localhost:8000")
 
-// if this service is calling the currency-exchange-service directly
+// if this service is calling the currency-exchange-service directly with euraka
 /*@FeignClient(name = "currency-exchange-service")
 @RibbonClient(name = "currency-exchange-service")
 public interface CurrencyExchangeServiceProxy {
@@ -20,7 +20,7 @@ public interface CurrencyExchangeServiceProxy {
 }
 */
 
-//if this service is calling the currency-exchange-service via the AUUL Gateway
+//if this service is calling the currency-exchange-service via the AUUL Gateway with euraka
 
 @FeignClient(name = "NETFLIX-ZUUL-API-GATEWAY-SERVER")
 @RibbonClient(name = "NETFLIX-ZUUL-API-GATEWAY-SERVER")
